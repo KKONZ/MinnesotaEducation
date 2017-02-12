@@ -3,3 +3,15 @@
  _Home page for the data center_
  
 http://w20.education.state.mn.us/MDEAnalytics/Data.jsp
+
+Currently setup using:
+* Mozilla Firefox version 51.0.1
+* geckodriver version v0.14.0 found here https://github.com/mozilla/geckodriver/releases
+* Selenium version 3.0.2
+* Python 3.6
+
+Use following code to setup executable
+I had set the geckodriver.exe file in the system PATH but was still not being recognized in the Python wrapper so I added these lines of code:
+
+ff = "C:/Users/karlk/geckodriver.exe"
+driver = webdriver.Firefox(executable_path=ff)
