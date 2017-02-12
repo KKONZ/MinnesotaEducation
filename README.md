@@ -14,4 +14,5 @@ Use following code to setup executable
 I had set the geckodriver.exe file in the system PATH but was still not being recognized in the Python wrapper so I added these lines of code:
 
 ff = "C:/Users/karlk/geckodriver.exe"
+
 driver = webdriver.Firefox(executable_path=ff)
