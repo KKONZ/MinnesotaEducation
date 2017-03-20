@@ -24,3 +24,4 @@ http://w20.education.state.mn.us/ibi_apps/WFServlet?IBIF_ex=mdea_ddl_driver&TOPI
 Updated local script, rolls up individual files.
 TODO: find max value and data type for each column. Add those values to sql meta-table create scripts.
 SQL will DROP table; CREATE table; each execution.
+Push to Azure SQL database.
